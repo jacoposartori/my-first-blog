@@ -9,14 +9,14 @@
 
         <div>
             {% for post in posts %}
-                <div>
-        <p>published: {{ post.published_date }}</p>
-        <h2><a href="">{{ post.title }}</a></h2>
-        <p>{{ post.text|linebreaksbr }}</p>
+        <div>
+            <p>published: {{ post.published_date }}</p>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
         
-    </div>
+        </div>
             {% endfor %}
-    </div>
-    <p>hello</p>
+        </div>
+        <p>hello</p>
     </body>
 </html>
